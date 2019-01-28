@@ -1,0 +1,49 @@
+#AnchorPane{
+    -fx-background-image:url("../images/bg.jpg");
+    -fx-background-size:cover;
+    /*-fx-background-color:black;*/
+}
+#btn0,#btn1,#btn2,#btn3,#btn4,#btn5,#btn6,#btn7,#btn8,#btn9{
+    -fx-background-color: transparent;
+    -fx-background-image:url("../images/round_btn.png");
+    -fx-pref-width: 110px;
+    -fx-background-size:cover;
+    -fx-font-size: 50px;
+    -fx-color: orange;
+    -fx-border:thick solid black;
+    -fx-effect: dropshadow(three-pass-box, rgba(1,1,1,0.8), 10, 0, 0, 0);
+
+}
+#score,#time{
+    -fx-background-color: transparent;
+    -fx-background-image:url("../images/right.png");
+    -fx-background-size:cover;
+    -fx-font-size: 50px;
+    -fx-effect: dropshadow(three-pass-box, rgba(1,1,1,0.8), 10, 0, 0, 0);
+
+}
+#timer{
+    -fx-pref-width: 180px;
+    -fx-pref-height: 180px;
+    -fx-background-color: transparent;
+    -fx-background-image:url("../images/right.png");
+    -fx-background-size:cover;
+    -fx-font: 70px Tahoma;
+    -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+
+}
+#counter,#winner{
+    /*-fx-pref-width: 580px;*/
+    /*-fx-pref-height: 50px;*/
+    -fx-background-color: transparent;
+    -fx-background-image:url("../images/right.png");
+    -fx-background-size:125% 120%;
+
+    -fx-background-repeat: no-repeat;
+    /*-fx-font: 50px Tahoma;*/
+    -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);
+    -fx-stroke: black;
+    -fx-stroke-width: 1; 
+}

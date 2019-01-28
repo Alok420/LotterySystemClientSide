@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="1145.0" prefWidth="1699.0" stylesheets="@../javafxapplication1/css/sam.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lotterysystem.FXMLDocumentController">
+   <children>
+      <HBox id="header" alignment="CENTER" layoutX="4.0" layoutY="4.0" prefHeight="42.0" prefWidth="565.0">
+         <children>
+            <Label prefHeight="100.0" prefWidth="568.0" text="MUMBAI METRO" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+               <font>
+                  <Font name="Impact" size="85.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.8166666666666667" centerY="0.43333333333333335" radius="0.7209302325581395">
+                     <stops>
+                        <Stop color="#09e532" />
+                        <Stop color="#ff0202" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="387.0" layoutY="98.0" prefHeight="843.0" prefWidth="922.0">
+         <children>
+            <Group>
+               <children>
+                  <Group id="rotation" layoutX="3.0" layoutY="136.0">
+                     <children>
+                        <ImageView blendMode="HARD_LIGHT" fitHeight="520.0" fitWidth="675.0" layoutX="-237.0" layoutY="-322.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../javafxapplication1/images/img/wheel.png" />
+                           </image>
+                        </ImageView>
+                        <Text id="num6" layoutX="-130.0" layoutY="89.0" rotate="-146.3" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="num" text="6" textAlignment="CENTER" wrappingWidth="110.662109375">
+                           <fill>
+                              <RadialGradient centerX="1.0" centerY="0.5285714285714286" focusDistance="0.5116279069767442" radius="1.0">
+                                 <stops>
+                                    <Stop color="#0bb909" />
+                                    <Stop color="#c30e0e" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <font>
+                              <Font name="Impact" size="46.0" />
+                           </font>
+                        </Text>
+                        <Text id="num7" layoutX="-203.0" layoutY="8.0" rotate="-119.1" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="num" text="7" textAlignment="CENTER" wrappingWidth="110.662109375">
+                           <fill>
+                              <RadialGradient centerX="1.0" centerY="0.5285714285714286" focusDistance="0.5116279069767442" radius="1.0">
+                                 <stops>
+                                    <Stop color="#0bb909" />
+                                    <Stop color="#c30e0e" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <font>
+                              <Font name="Impact" size="46.0" />
+                           </font>
+                        </Text>
+                        <Text id="num0" layoutX="-32.0" layoutY="-204.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="num" text="0" textAlignment="CENTER" wrappingWidth="110.662109375">
+                           <font>
+                              <Font name="Impact" size="46.0" />
+                           </font>
+                           <fill>
+                              <RadialGradient centerX="1.0" centerY="0.5285714285714286" focusDistance="0.5116279069767442" radius="1.0">
+                                 <stops>
+                                    <Stop color="#0bb909" />
+                                    <Stop color="#c30e0e" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                        </Text>
+                        <Text id="num1" layoutX="65.0" layoutY="-176.0" rotate="38.7" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="num" text="1" textAlignment="CENTER" wrappingWidth="110.662109375">
+                           <fill>
+                              <RadialGradient centerX="1.0" centerY="0.5285714285714286" focusDistance="0.5116279069767442" radius="1.0">
+                                 <stops>
+                                    <Stop color="#0bb909" />
+                                    <Stop color="#c30e0e" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <font>
+                              <Font name="Impact" size="46.0" />
+                           </font>
+                        </Text>
+                        <Text id="num2" layoutX="126.0" layoutY="-104.0" rotate="75.3" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="num" text="2" textAlignment="CENTER" wrappingWidth="110.662109375">
+                           <fill>
+                              <RadialGradient centerX="1.0" centerY="0.5285714285714286" focusDistance="0.5116279069767442" radius="1.0">
+                                 <stops>
+                                    <Stop color="#0bb909" />
+                                    <Stop color="#c30e0e" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <font>
+                              <Font name="Impact" size="46.0" />
+                           </font>
+                        </Text>
+                        <Text id="num3" layoutX="137.0" layoutY="8.0" rotate="102.5" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="num" text="3" textAlignment="CENTER" wrappingWidth="110.662109375">
+                           <fill>
+                              <RadialGradient centerX="1.0" centerY="0.5285714285714286" focusDistance="0.5116279069767442" radius="1.0">
+                                 <stops>
+                                    <Stop color="#0bb909" />
+                                    <Stop color="#c30e0e" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <font>
+                              <Font name="Impact" size="46.0" />
+                           </font>
+                        </Text>
+                        <Text id="num4" layoutX="65.0" layoutY="89.0" rotate="121.6" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="num" text="4" textAlignment="CENTER" wrappingWidth="110.662109375">
+                           <fill>
+                              <RadialGradient centerX="1.0" centerY="0.5285714285714286" focusDistance="0.5116279069767442" radius="1.0">
+                                 <stops>
+                                    <Stop color="#0bb909" />
+                                    <Stop color="#c30e0e" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <font>
+                              <Font name="Impact" size="46.0" />
+                           </font>
+                        </Text>
+                        <Text id="num5" layoutX="-33.0" layoutY="117.0" rotate="180.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="num" text="5" textAlignment="CENTER" wrappingWidth="110.662109375">
+                           <fill>
+                              <RadialGradient centerX="1.0" centerY="0.5285714285714286" focusDistance="0.5116279069767442" radius="1.0">
+                                 <stops>
+                                    <Stop color="#0bb909" />
+                                    <Stop color="#c30e0e" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <font>
+                              <Font name="Impact" size="46.0" />
+                           </font>
+                        </Text>
+                        <Text id="num9" layoutX="-130.0" layoutY="-176.0" rotate="-40.6" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="num" text="9" textAlignment="CENTER" wrappingWidth="110.662109375">
+                           <fill>
+                              <RadialGradient centerX="1.0" centerY="0.5285714285714286" focusDistance="0.5116279069767442" radius="1.0">
+                                 <stops>
+                                    <Stop color="#0bb909" />
+                                    <Stop color="#c30e0e" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <font>
+                              <Font name="Impact" size="46.0" />
+                           </font>
+                        </Text>
+                        <Text id="num8" layoutX="-203.0" layoutY="-84.0" rotate="-74.7" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="num" text="8" textAlignment="CENTER" wrappingWidth="110.662109375">
+                           <fill>
+                              <RadialGradient centerX="1.0" centerY="0.5285714285714286" focusDistance="0.5116279069767442" radius="1.0">
+                                 <stops>
+                                    <Stop color="#0bb909" />
+                                    <Stop color="#c30e0e" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <font>
+                              <Font name="Impact" size="46.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="229.0" fitWidth="229.0" layoutX="-91.0" layoutY="-175.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../javafxapplication1/images/earth.gif" />
+                           </image>
+                        </ImageView>
+                     </children>
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </Group>
+                  <ImageView blendMode="RED" fitHeight="161.0" fitWidth="62.0" layoutX="-6.0" layoutY="-314.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../javafxapplication1/images/img/pin.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="229.0" fitWidth="477.0" layoutX="-231.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../javafxapplication1/images/img/banner.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="269.0" fitWidth="866.0" layoutX="-424.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../javafxapplication1/images/img/bg.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="39.0" fitWidth="46.0" layoutX="-116.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../javafxapplication1/images/img/star.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="39.0" fitWidth="46.0" layoutX="-66.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../javafxapplication1/images/img/star.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="39.0" fitWidth="46.0" layoutX="-13.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../javafxapplication1/images/img/star.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="39.0" fitWidth="46.0" layoutX="43.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../javafxapplication1/images/img/star.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="39.0" fitWidth="46.0" layoutX="88.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../javafxapplication1/images/img/star.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="-353.0" layoutY="168.0" text="MUMBAI METRO" textOverrun="WORD_ELLIPSIS">
+                     <textFill>
+                        <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                           <stops>
+                              <Stop color="#13dd0f" />
+                              <Stop color="#e10c0c" offset="1.0" />
+                           </stops>
+                        </RadialGradient>
+                     </textFill>
+                     <font>
+                        <Font name="Cambria Bold" size="96.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="54.0" fitWidth="52.0" layoutX="-122.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="54.0" fitWidth="52.0" layoutX="-72.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="54.0" fitWidth="52.0" layoutX="-19.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="54.0" fitWidth="52.0" layoutX="37.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="54.0" fitWidth="52.0" layoutX="81.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label alignment="CENTER" blendMode="GREEN" layoutX="-294.0" layoutY="278.0" prefHeight="43.0" prefWidth="639.0" style="-fx-background-color: white;" text="Please bet to start game . Minimum Bet 1">
+                     <font>
+                        <Font name="Ebrima" size="29.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#0f1e0c" />
+                              <Stop color="#ab3737" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                     <effect>
+                        <InnerShadow choke="0.5" radius="14.8575" width="40.43" />
+                     </effect>
+                     <padding>
+                        <Insets bottom="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </Group>
+         </children>
+      </HBox>
+      <HBox id="footer" layoutX="14.0" layoutY="509.0" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="2" />
+      <Label blendMode="SRC_ATOP" layoutX="23.0" layoutY="94.0" text="Score">
+         <font>
+            <Font name="System Bold" size="53.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#09e532" />
+                  <Stop color="#ff0202" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label blendMode="SRC_ATOP" layoutX="21.0" layoutY="284.0" text="Time">
+         <font>
+            <Font name="System Bold" size="53.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#09e532" />
+                  <Stop color="#ff0202" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button id="score" layoutX="-53.0" layoutY="163.0" minWidth="-Infinity" mnemonicParsing="false" prefHeight="121.0" prefWidth="360.0" text="1" textFill="WHITE" />
+      <Button id="time" layoutX="-53.0" layoutY="360.0" minWidth="-Infinity" mnemonicParsing="false" prefHeight="121.0" prefWidth="360.0" text="1" textFill="WHITE" />
+      <VBox id="rightcontent" layoutX="1208.0" layoutY="94.0" prefHeight="683.0" prefWidth="477.0">
+         <children>
+            <Label alignment="CENTER_RIGHT" blendMode="SRC_ATOP" prefHeight="73.0" prefWidth="554.0" text="Winner   ">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.2666666666666667">
+                     <stops>
+                        <Stop color="RED" />
+                        <Stop color="#14c412" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font name="System Bold" size="50.0" />
+               </font>
+            </Label>
+            <Button id="winner" alignment="BOTTOM_CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="98.0" prefWidth="556.0" text="1" textFill="#f8f8f8">
+               <font>
+                  <Font name="System Bold" size="59.0" />
+               </font></Button>
+            <Label alignment="CENTER_RIGHT" blendMode="SRC_ATOP" prefHeight="73.0" prefWidth="433.0" text="Last 10 data">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.2666666666666667">
+                     <stops>
+                        <Stop color="RED" />
+                        <Stop color="#14c412" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font name="System Bold" size="50.0" />
+               </font>
+            </Label>
+            <Button id="counter" alignment="BOTTOM_RIGHT" contentDisplay="TEXT_ONLY" mnemonicParsing="false" prefHeight="97.0" prefWidth="516.0" text="5" textAlignment="JUSTIFY" textFill="WHITE">
+               <font>
+                  <Font size="32.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+         </children>
+      </VBox>
+      <Pane id="loginpanel" layoutX="4.0" layoutY="-2.0" prefHeight="638.0" prefWidth="843.0" style="-fx-background-color: radial-gradient(focus-angle 160deg , focus-distance 36% , center 50% 50% , radius 55% , #7cfc00, #ff0000);;">
+         <children>
+            <Button id="loginbtn" blendMode="DIFFERENCE" layoutX="64.0" layoutY="409.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="314.0" text="Login" textFill="#0fc351">
+               <font>
+                  <Font name="Impact" size="42.0" />
+               </font>
+            </Button>
+            <Label layoutX="14.0" layoutY="82.0" text="Username:">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#1be10c" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <TextField id="username" layoutX="14.0" layoutY="142.0" prefHeight="51.0" prefWidth="413.0" />
+            <Label layoutX="14.0" layoutY="221.0" text="Password:">
+               <font>
+                  <Font size="35.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#1be10c" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <TextField id="password" layoutX="14.0" layoutY="308.0" prefHeight="51.0" prefWidth="413.0" />
+         </children></Pane>
+   </children>
+   <effect>
+      <Glow level="0.0" />
+   </effect>
+</AnchorPane>
